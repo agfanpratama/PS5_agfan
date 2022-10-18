@@ -1,0 +1,7 @@
+agfan=read.delim("clipboard")
+View(agfan)
+str(agfan)
+
+mean(agfan$Volume)
+t.test(agfan$VOlume, mu=10)
+
